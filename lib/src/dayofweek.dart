@@ -20,6 +20,10 @@ class DayOfWeek {
     none, monday, tuesday, wednesday, thursday, friday, saturday, sunday
   ];
 
+  static const List<DayOfWeek> values = [
+    monday, tuesday, wednesday, thursday, friday, saturday, sunday
+  ];
+
   /// Value indicating no day of the week; this will never be returned
   /// by any IsoDayOfWeek property, and is not valid as an argument to
   /// any method.
